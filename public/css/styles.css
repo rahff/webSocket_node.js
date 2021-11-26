@@ -1,0 +1,78 @@
+*{
+    margin:0;
+    padding:0;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    background-color: #36393f;
+    color: #dcddde;
+    min-height: 100vh;
+}
+a {
+    color: #dcddde;
+    text-decoration: none;
+    cursor: pointer;
+}
+.logo{
+    width: 100px;
+    border-radius: 7px;
+}
+.container-fluid{
+    padding: 0px;
+}
+.namespace-container{
+    background-color: #2f3136;
+    border-right: 2px solid #dcddde;
+}
+.container-room{
+    background-color: #2f3136;
+}
+.item-namespaces img{
+    width: 40px;
+    height: 40px;
+}
+.item-namespaces:hover{
+    background-color: #36393f;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.item-namespaces.active{
+    background-color: #36393f;
+    border-radius: 5px;
+}
+.room-item:hover{
+    cursor: pointer;
+    background-color: #36393f;
+    border-radius: 5px;
+}
+.room-item.active{
+    background-color: #36393f;
+    border-radius: 5px;
+}
+.list-message{
+    overflow-y: scroll;
+    max-height: calc(100vh - 160px);
+}
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: #36393f #dcddde;
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #dcddde;
+    border-radius: 5px;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-color: #36393f;
+    border-radius: 10px;
+    border: 2px double #dcddde;
+  }
